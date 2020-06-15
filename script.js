@@ -1,6 +1,6 @@
 const words = ["aardappel", "banana", "uitstekend", "wereldkampioenschap",
   "vrijwilligerswerk", "samenlevingscontract", "verantwoordelijkheid", 'bestemingen',
-  "gezonheid", "coronacrisis",];
+  "gezonheid", "coronacrisis","mondmasker","zomervakantie","pictograam"];
 
 const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
   'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
@@ -84,7 +84,13 @@ function Zoekletter() {
     };
     if (maxfout == 0) {
       levens.innerHTML="Het Spel is Over. <br> Start een nieuw spel."
-      lettersdiv.className="none"
+      lettersdiv.className="none";
+      vraag = [];
+      for (let i = 0; i < wordArray.length; i++) {
+      vraag.push(wordArray[i]);
+      }
+      x = vraag.join(" ");
+      vraagh.innerHTML = x;
     };
   }
 
