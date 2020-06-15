@@ -1,0 +1,77 @@
+#hangmanbox{
+  background-color:#75b5be;
+  width: 500px;
+  margin: 100px auto;
+  padding: 30px 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#letter{
+  width: 250px;
+  height: 30px;
+  margin: 15px auto;
+  border-radius: 10px;
+  border:none;
+  text-align: center;
+}
+#letter:focus{
+  outline:none;
+}
+
+.btn{
+  width: 100px;
+  background-color:#1d4e46;
+  border: 0;
+  height: 30px;
+  border-radius: 10px;
+  color: #e2f0ff;
+}
+.btn:hover{
+  background-color: #37614d;
+  color: 	#e2e8ff;
+}
+.btn:focus{
+  outline: none;
+}
+.btn:active{
+  transform: scale(0.92);
+}
+.chicbutton{
+  background-color:#1d4e46;
+  border: none;
+  margin: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: #e2e8ff;
+}
+.chicbutton:hover{
+background-color: #37614d;
+}
+.chicbutton:focus{
+  outline: none;
+}
+.chicbutton:active{
+  transform: scale(0.92);
+}
+.passive{
+  background-color: #739082;
+  border: none;
+  margin: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: #e2e8ff;
+  outline: none;
+  pointer-events: none;
+}
+.none{
+  display: none;
+}
+#levens{
+  color: #e2f0ff;
+  font-size: xx-large;
+  font-style: normal;
+  font-family: fantasy;
+}
